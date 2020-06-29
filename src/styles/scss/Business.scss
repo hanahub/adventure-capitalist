@@ -1,0 +1,113 @@
+.business {
+  position:relative;
+  display: block;
+  height: 120px;
+  background-color: aquamarine;
+  margin: 10px;
+}
+
+.business .disable {
+  background-color: gray !important;
+}
+
+.business .icon {
+  float: left;
+  width: 40px;
+  height: 40px;
+  //background-color: purple;
+  padding: 12px;
+  margin: 6px;
+  //color: yellow;
+  border-radius: 50%;
+  border:2px black solid;
+}
+
+.business .icon:hover {
+  cursor: pointer;
+}
+
+
+.business .level {
+  position: absolute;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 70px;
+  height: 35px;
+  line-height: 35px;
+  background-color: darkcyan;
+  text-align: center;
+  bottom: 0px;
+}
+
+.business .revenue {
+  position: absolute;
+  margin: 5px; 
+  left: 75px;
+  top: -0;
+  width: 415px;
+  background-color: burlywood;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.business .revenue.busy {
+  position: absolute;
+  margin: 5px; 
+  left: 75px;
+  top: -0;
+  width: 415px;
+  background-color: whitesmoke;
+  height: 60px;
+  text-align: center;
+  line-height: 60px; // text align vertically middle
+}
+
+.business .revenue .textbox {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.business .progress {
+  background-color: green;
+  margin: 4px;
+  height: 52px;
+  width: 0;
+  transition: width 30ms ease-in-out;
+}
+
+.business .upgrade {
+  display: block;
+  position: absolute;
+  margin: 5px; 
+  left: 75px;
+  width: 300px;
+  height: 45px;
+  line-height: 45px; // text align vertically middle
+  background-color: chocolate;
+  text-align: center;
+  bottom: 0;
+
+}
+
+.business .upgrade:hover {
+  color: #ed1212;
+  cursor: pointer;
+}
+
+.business .duration {
+  position: absolute;
+  margin: 5px; 
+  left: 380px;
+  width: 110px;
+  height: 45px;
+  line-height: 45px; // text align vertically middle
+  background-color: khaki;
+  text-align: center;
+  bottom: 0;
+}
+
